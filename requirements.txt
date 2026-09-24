@@ -30,6 +30,8 @@ pydantic==2.8.2
 # Humanize sizes/speeds
 humanize==4.10.0
 
+ffmpeg-python==0.2.0
+
 # NOTE: FFmpeg-python is NOT used directly by this bot (FFmpeg is called
 # via subprocess). Keeping it out of the install reduces container size.
 # If you need it elsewhere, add: ffmpeg-python==0.2.0
