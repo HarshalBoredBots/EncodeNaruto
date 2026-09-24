@@ -1,6 +1,6 @@
 # Core Telegram
 pyrogram==2.0.106
-tgcrypto==1.2.6
+tgcrypto
 
 # Config
 python-dotenv==1.0.1
